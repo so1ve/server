@@ -1,7 +1,6 @@
 {
   "$schema": "https://deno.land/x/deno/cli/schemas/config-file.v1.json",
   "compilerOptions": {
-    "allowJs": true,
     "lib": [
       "deno.ns",
       "deno.unstable",

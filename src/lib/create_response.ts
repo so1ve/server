@@ -26,7 +26,7 @@ export const createResponse = ({
   const response: CreateResponseResult = {
     statusCode,
     message: (message ?? overrideMessages[statusCode.toString()]) ||
-      status.message[statusCode] as string,
+      status(statusCode).toString(),
   };
   data && (response.data = data);
   error && (response.error = error);
