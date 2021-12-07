@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "joi": "https://esm.sh/joi@17.5.0",
+    "oak": "https://deno.land/x/oak@v10.0.0/mod.ts",
+    "leancloud-storage": "https://esm.sh/leancloud-storage@4.12.0",
+    "lodash": "http://deno.land/x/lodash@4.17.11-es/lodash.js"
+  }
+}
