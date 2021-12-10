@@ -1,7 +1,7 @@
-import { Context, RouterMiddleware } from "oak";
+import { RouterMiddleware } from "oak";
 
-import { createResponse, schema } from "../lib/index.ts";
-import { getStorage } from "../service/storage/index.ts";
+import { createResponse, schema } from "../lib/mod.ts";
+import { getStorage } from "../service/storage/mod.ts";
 
 const storage = getStorage({ tableName: "Posts" });
 

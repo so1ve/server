@@ -182,8 +182,8 @@ class LeancloudStorage extends BaseStorage {
 
     return await Promise.all(
       ret.map(async (item) => {
-        if (_.isFunction(data)) {
-          item.set((data as any)(item.toJSON()));
+        if (typeof data === "function") {
+          item.set(data(item.toJSON()));
         } else {
           item.set(data);
         }

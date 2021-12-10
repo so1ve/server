@@ -1,4 +1,4 @@
-import { SupportedStorage } from "../../types/index.ts";
+import { SupportedStorage } from "../../types/mod.ts";
 import BaseStorage from "./base.ts";
 import ErrorStorage from "./error.ts";
 import LeancloudStorage from "./leancloud.ts";

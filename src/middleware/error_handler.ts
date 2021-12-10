@@ -1,9 +1,9 @@
-import error from "koa-json-error";
+import error from "oak_json_error";
 
-import { createResponse } from "../lib";
+import { createResponse } from "../lib/mod.ts";
 
 const errorHandler = error({
-  format(err) {
+  format(err: Error & { status?: number }) {
     return createResponse({
       statusCode: err.status,
       error: err.message,

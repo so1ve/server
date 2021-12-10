@@ -1,7 +1,7 @@
 import { Router } from "oak";
 
-import { API_VERSION } from "./lib/index.ts";
-import { categories, posts, tags } from "./controller/index.ts";
+import { API_VERSION } from "./lib/mod.ts";
+import { categories, posts, tags } from "./controller/mod.ts";
 
 const unprotectedRouter = new Router({
   prefix: `/${API_VERSION}`,

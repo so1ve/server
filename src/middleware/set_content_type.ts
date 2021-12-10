@@ -1,7 +1,7 @@
-import { DefaultContext, DefaultState, Middleware } from "koa";
+import { Middleware } from "oak";
 
-const setDataType: Middleware<DefaultState, DefaultContext> = (ctx) => {
-  ctx.type = "json";
+const setContentType: Middleware = (ctx) => {
+  ctx.response.type = "json";
 };
 
-export default setDataType;
+export default setContentType;

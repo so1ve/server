@@ -3,8 +3,9 @@
     "fmt/": "https://deno.land/std@0.117.0/fmt/",
     "joi": "https://esm.sh/joi@17.5.0",
     "leancloud-storage": "https://esm.sh/leancloud-storage@4.12.0",
-    "lodash": "http://deno.land/x/lodash@4.17.11-es/lodash.js",
+    "lodash": "https://deno.land/x/lodash@4.17.15-es/lodash.js",
     "oak": "https://deno.land/x/oak@v10.0.0/mod.ts",
+    "oak_json_error": "https://deno.land/x/oak_json_error@1.0.3/mod.ts",
     "statuses": "https://esm.sh/statuses@2.0.1"
   }
 }
