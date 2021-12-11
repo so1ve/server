@@ -1,4 +1,4 @@
-import { RouterMiddleware } from "oak";
+import { RouterMiddleware } from "../deps.ts";
 
 import { createResponse, schema } from "../lib/mod.ts";
 import { getStorage } from "../service/storage/mod.ts";

@@ -1,4 +1,4 @@
-import { Application, ApplicationOptions } from "oak";
+import { Application, ApplicationOptions } from "./deps.ts";
 
 import errorHandler from "./middleware/error_handler.ts";
 import setContentType from "./middleware/set_content_type.ts";

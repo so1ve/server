@@ -23,5 +23,6 @@ export const getStorage = ({
   storage,
 }: GetStorageArguments): BaseStorage => {
   storage = storage! || STORAGE_TYPE;
+  console.log(Deno.env.get("STORAGE_TYPE"));
   return new storages[storage](tableName);
 };

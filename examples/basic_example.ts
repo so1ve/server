@@ -1,6 +1,6 @@
-import { blue, bold, green } from "fmt/colors.ts";
-
-import { createServer } from "../src/mod.ts";
+import { blue, bold, green } from "https://deno.land/std@0.117.0/fmt/colors.ts";
+import "https://deno.land/x/dotenv@v3.1.0/load.ts";
+import { createServer } from "../mod.ts";
 
 const PORT = 4000;
 const app = createServer();

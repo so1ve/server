@@ -1,4 +1,4 @@
-import Joi from "joi";
+import { Joi } from "../deps.ts";
 
 export const author = Joi.object({
   name: Joi.string()

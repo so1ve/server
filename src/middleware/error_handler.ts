@@ -1,4 +1,4 @@
-import error from "oak_json_error";
+import { error } from "../deps.ts";
 
 import { createResponse } from "../lib/mod.ts";
 

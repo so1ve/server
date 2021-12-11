@@ -1,4 +1,4 @@
-import { Router } from "oak";
+import { Router } from "./deps.ts";
 
 import { API_VERSION } from "./lib/mod.ts";
 import { posts } from "./controller/mod.ts";

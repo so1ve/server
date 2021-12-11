@@ -1,7 +1,6 @@
 // The source code is from [Waline](https://github.com/walinejs/waline/blob/main/packages/server/src/service/storage/leancloud.js) and has been modified to apply to typescript.
 // Thanks !
-import * as _ from "lodash";
-import AV from "leancloud-storage";
+import { _, AV } from "../../deps.ts";
 
 import BaseStorage, { Access, SelectOptions, Where } from "./base.ts";
 

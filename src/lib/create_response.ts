@@ -1,4 +1,4 @@
-import status from "statuses";
+import { status } from "../deps.ts";
 
 type CreateResponseArguments = {
   statusCode?: number;
